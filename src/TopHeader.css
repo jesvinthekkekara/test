@@ -1,0 +1,51 @@
+.topheader {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  background-color: DodgerBlue !important;
+
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+.topheader_logo {
+  width: 10px;
+  object-fit: contain;
+
+  padding-right: 10px;
+}
+
+.topheader_center {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 40px;
+  padding-bottom: 20px;
+}
+.topheader_option {
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  flex-direction: column;
+}
+
+.topheader_option:hover {
+  color: #cce0ff;
+
+  transition: all 0.1s;
+
+  border-bottom: 2px solid #cce0ff;
+}
+.topheader_left {
+  padding-bottom: 20px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 70px;
+}
+.topheader_left_title {
+  color: white;
+  margin-right: 20px;
+}
